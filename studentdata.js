@@ -14,7 +14,7 @@ const studentSchema = mongoose.Schema({
         required: true,
     },
     subjects: {
-        type: [String],
+        type: String,
         required: true,
     },
     term: {
@@ -22,7 +22,7 @@ const studentSchema = mongoose.Schema({
         required: true,
     },
     marks: {
-        type: [Number],
+        type: Number,
         required: false
     }
 
