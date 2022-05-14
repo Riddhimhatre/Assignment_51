@@ -9,10 +9,10 @@ app.set('views', 'views');
 
 /* Body Parser */
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '')));
 
 /* Routes */
-const studentrouter = require("./routes/students");
+const studentrouter = require("./students");
 
 app.get('/', function(req, res){
     res.redirect('/students');
@@ -21,7 +21,7 @@ app.get('/', function(req, res){
 app.use('/students', studentrouter)
 
 
-const errController = require('./controllers/error-controller')
+const errController = require('./error-controller')
 app.use(errController.show404Page);
 
 app.listen(port, () => {
