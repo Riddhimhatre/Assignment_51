@@ -84,13 +84,13 @@ Steps to Build and Run a Docker image and container
 
 ### BUILD
 ```shell
-sudo docker build -t akshaysen08/assignment-5-612
+sudo docker build -t 
 ```
 
  
 ### RUN
 ```shell
-docker run --name student-apis-container -p 80:9000 -d akshaysen08/assignment-5-612
+docker run --name student-apis-container -p 80:9000 -d 
 ```
 
 To restart your container
@@ -106,7 +106,7 @@ docker restart student-apis-container
 
 ## Authors
 
-* **Akshay Sen/ Chandani Reddy** - *Initial work* - [akshaysen08](https://github.com/akshaysen08)
+* **Riddhi Mhatre** - *Initial work* - 
 
 
 
