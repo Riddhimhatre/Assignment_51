@@ -45,7 +45,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Install
 
-    $ git clone https://github.com/akshaysen08/cs-612-assignment-5
+    $ git clone https://github.com/Riddhimhatre/Assignment_5.git
     $ cd cs-612-assignment-5
     $ yarn install
 
